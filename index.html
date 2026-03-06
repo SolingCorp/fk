@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="search-btn">
+                <span class="desktop-search">Sign-up</span>
+                <i class="bxf bx-user"></i>
+            </a>
+            <a href="#" class="logo">MAI</a>
+            <div class="nav-links desktop-only">
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#team">Team</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <div class="mobile-main-links">
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#news" class="mobile-nav-link">News</a>
+                <a href="#team" class="mobile-nav-link">Team</a>
+                <a href="#careers" class="mobile-nav-link">Careers</a>
+            </div>
+
+            <div class="mobile-footer-links">
+                <div class="mobile-social">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </div>
+                <div class="mobile-legal">
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy &amp; Cookies</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Trademarks</a>
+                    <a href="#">Microsoft.com</a>
+                </div>
+            </div>
+
+            <div class="mobile-acc-container">
+                <span class="acc-label">OPT</span>
+                <button class="accessibility-toggle mobile-acc-toggle" id="mobileAccToggle">
+                    <span class="toggle-text">Accessibility Mode</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-bg">
+            <div class="diagonal-shadows"></div>
+        </div>
+        <div class="hero-content reveal">
+            <h1 class="hero-title">
+                <span class="italic">Approachable</span>
+                <span>Intelligence</span>
+            </h1>
+            <p class="hero-subtitle">Responsible AI to empower humanity</p>
+        </div>
+        <img src="images/wave1.png" class="bottom-img">
+    </section>
+
+    <!-- Team Gallery Section -->
+    <section class="team-section" id="team">
+        <div class="scroll-track" id="depth-section">
+            <div class="sticky-viewport">
+
+                <div class="center-content" id="center-content">
+                    <div class="center-text">
+                        Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum voluptates quasi tempora.
+                    </div>
+                    <a href="#" class="mai-button">MAI Team <i class="bxf bx-arrow-big-right-line"></i></a>
+                </div>
+
+                <div class="gallery-image img-1" data-z="-1000"></div>
+                <div class="gallery-image img-2" data-z="-1600"></div>
+                <div class="gallery-image img-3" data-z="-1800"></div>
+                <div class="gallery-image img-4" data-z="-2400"></div>
+                <div class="gallery-image img-5" data-z="-3200"></div>
+                <div class="gallery-image img-6" data-z="-5000"></div>
+                <div class="gallery-image img-7" data-z="-6500"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="news-header reveal">
+                <h2 class="news-title">Latest news</h2>
+                <p class="news-subtitle">Stories. Updates. Perspectives.</p>
+            </div>
+
+            <div class="news-grid">
+                <!-- Featured article 1 -->
+                <article class="news-card featured reveal">
+                    <div class="news-image-wrapper">
+                        <img src="images/2025%20(1).jpg" alt="">
+                    </div>
+                    <h3 class="news-card-title">It's About Time: The Copilot Usage Report 2025</h3>
+                    <div class="news-meta">
+                        <span class="news-tag">research</span>
+                        <span class="news-readtime">20 min read</span>
+                    </div>
+                </article>
+
+                <!-- Featured article 2 -->
+                <article class="news-card2 featured reveal">
+                    <div class="news-image-wrapper2">
+                        <img src="images/news-illustration-1.jpg" alt="">
+                    </div>
+                    <h3 class="news-card-title daisyhead">Towards Humanist Superintelligence</h3>
+                    <div class="news-meta">
+                        <span class="news-tag">announcements</span>
+                        <span class="news-readtime">20 min read</span>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="news-card2 reveal">
+                    <div class="news-image-wrapper2">
+                        <img src="images/news-daisies.jpg" alt="">
+                    </div>
+                    <h3 class="news-card-title daisyhead">Copilot Fall Release: A big step forward in making AI more personal, useful, and human-centered</h3>
+                    <div class="news-meta">
+                        <span class="news-tag">copilot</span>
+                        <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17 17 7"></path>
+                            <path d="M7 7h10v10"></path>
+                        </svg>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="news-card reveal">
+                    <div class="news-image-wrapper">
+                        <img src="images/news-image-grid.jpg" alt="">
+                    </div>
+                    <h3 class="news-card-title">Introducing MAI-Image-1, debuting in the top 10 on LMArena</h3>
+                    <div class="news-meta">
+                        <span class="news-tag">models</span>
+                        <span class="news-readtime">4 min read</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="news-footer">
+                <a href="#" class="btn-soft">
+                    <span>All news</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section class="careers-section" id="careers">
+        <div class="container">
+            <h2 class="careers-title reveal">Careers</h2>
+            <p class="careers-text reveal">Lorem ipsium dolor et sit amet cosecutur <br>Lorem ipsium dolor et?</p>
+            <div class="careers-illustration">
+                <img src="images/careers-illustration.jpg" alt="MAI Office">
+            </div>
+            <a href="#" class="btn-soft">
+                <span>Explore careers</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-grid">
+                <blockquote class="quote-text reveal">
+                    Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum voluptates quasi tempora.
+                </blockquote>
+                <div class="quote-attribution">
+                    <svg class="signature" viewBox="0 0 200 80" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M10 60 Q 30 20, 50 40 T 90 30 Q 110 20, 100 50 Q 95 70, 120 60 Q 140 50, 130 30 Q 125 15, 150 25 Q 170 35, 160 55 Q 155 70, 180 50" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M140 35 Q 150 25, 160 35 Q 170 45, 165 55" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <cite class="quote-author">
+                        <span class="author-name">Mustafa Suleyman</span>, CEO Microsoft AI
+                    </cite>
+                </div>
+            </div>
+            <div class="quote-cta">
+                <a href="#" class="btn-blue">
+                    <span>More about MAI</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="products-title reveal">Core products and experiences</h2>
+            <p class="products-description">Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum voluptates quasi tempora. Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum vol.</p>
+
+            <div class="products-tabs">
+                <button class="tab-btn active" data-tab="copilot">Copilot</button>
+                <button class="tab-btn" data-tab="bing">Bing</button>
+                <button class="tab-btn" data-tab="edge">Edge</button>
+            </div>
+
+            <div class="products-showcase" id="product-showcase">
+                <div class="showcase-content active" data-content="copilot">
+                    <img src="images/copilot-showcase.jpg" alt="Copilot" class="showcase-bg">
+                </div>
+                <div class="showcase-content" data-content="bing">
+                    <div class="showcase-placeholder">
+                        <h3 class="showcase-title">Bing</h3>
+                        <p>Coming soon</p>
+                    </div>
+                </div>
+                <div class="showcase-content" data-content="edge">
+                    <div class="showcase-placeholder">
+                        <h3 class="showcase-title">Edge</h3>
+                        <p>Coming soon</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="products-caption">Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum voluptates quasi tempora.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <a href="#" class="logo">MAI</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#news">News</a>
+                    <a href="#team">Team</a>
+                    <a href="#careers">Careers</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy &amp; Cookies</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Trademarks</a>
+                    <a href="#">Microsoft.com</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; Microsoft 2026</p>
+                    <p class="footer-clarity">Lorem ipsium dolor et sit amet cosecutur adipisicing elit. Molestiae numquam dolores dolorem adipisci recusandae, exnescuint. Voluptatum voluptates quasi tempora. Learn more <a href="#">here</a> and at our <a href="#">Privacy Statement</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Accessibility Toggle -->
+    <button class="accessibility-toggle" id="accessibilityToggle">
+        <span class="toggle-dot"></span>
+        <span class="toggle-text">Accessibility Mode</span>
+        <span class="toggle-status">Off</span>
+    </button>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
