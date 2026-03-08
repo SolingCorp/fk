@@ -86,7 +86,7 @@ h6 {
 }
 
 .nav.scrolled {
-    background: rgba(250, 248, 245, 0.95);
+    background: rgba(224, 213, 224, 0.75);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
 }
 
@@ -434,7 +434,7 @@ h6 {
 /* News Section */
 .news-section {
     padding: 8px 0 120px 0;
-    background: var(--mai-cream);
+    background: linear-gradient(180deg, var(--mai-cream) 0%, var(--mai-cream) 40%, #e4d8e4 94%, #e4d8e4 100%);
 }
 
 .news-header {
@@ -551,7 +551,7 @@ h6 {
 /* Careers Section */
 .careers-section {
     padding: 120px 0;
-    background: linear-gradient(180deg, var(--mai-cream) 0%, #eae6ea 40%, #eae6ea 100%);
+    background: linear-gradient(180deg, #e4d8e4 0%, #e4d8e4 40%, #e4d8e4 100%);
     text-align: center;
     cursor: default;
 }
@@ -586,7 +586,7 @@ h6 {
 /* Quote Section */
 .quote-section {
     padding: 120px 0;
-    background: linear-gradient(180deg, #eae6ea 0%, #eae6ea 20%, var(--mai-cream) 100%);
+    background: linear-gradient(180deg, #e4d8e4 0%, #e4d8e4 20%, var(--mai-cream) 100%);
     cursor: default;
 }
 
