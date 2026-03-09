@@ -1,10 +1,12 @@
 /* Lenis Recommended Reset */
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
     height: auto;
 }
 
 .lenis.lenis-smooth {
-    scroll-behavior: auto !important; /* Overrides native smooth scroll to let JS handle it */
+    scroll-behavior: auto !important;
+    /* Overrides native smooth scroll to let JS handle it */
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
@@ -180,7 +182,7 @@ h6 {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #989800 0%, #808000 50%, #6b6b00 100%);
+    background: linear-gradient(135deg, #dac0da 0%, #C8A2C8 50%, #b18cb1 100%);
 }
 
 .diagonal-shadows {
@@ -258,6 +260,7 @@ h6 {
     perspective: 1000px;
     /* 3D perspective */
 }
+
 .center-content {
     position: absolute;
     z-index: 100;
@@ -1174,15 +1177,19 @@ body.accessibility-mode .hero-subtitle {
     }
 
     /* Keep Gallery Images from overflowing off-screen on mobile */
-    
-.gallery-image {
-    visibility: hidden;
-}
-    
-.sticky-viewport {
-    height: 74vh;
-    perspective: 0px;
-}
+
+    .gallery-image {
+        visibility: hidden;
+    }
+
+    .scroll-track {
+        height: 240vh;
+    }
+
+    .sticky-viewport {
+        height: 94vh;
+        perspective: 0px;
+    }
 
     .products-tabs {
         flex-wrap: wrap;
