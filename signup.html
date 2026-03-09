@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/sign_up-in.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="login-card">
+
+            <h1>Create Your Account</h1>
+            <p class="subtitle">Sign Up</p>
+
+            <form id="signupForm">
+
+                <p class="signup-text">
+                    Already have an account? <a href="signin.html">Sign In</a>
+                </p>
+
+                <div class="input-group">
+                    <input type="text" id="fullname" placeholder="Enter your full name">
+                    <small class="error" id="nameError"></small>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="email" placeholder="Enter your email">
+                    <small class="error" id="emailError"></small>
+                </div>
+
+                <div class="input-group">
+                    <div class="password-wrapper">
+                        <input type="password" id="password" placeholder="Create a password">
+                        <span id="togglePassword" class="togglePassword">👁</span>
+                    </div>
+                    <small class="error" id="passwordError"></small>
+                </div>
+
+                <div class="input-group">
+                    <div class="password-wrapper">
+                        <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                        <span id="togglePassword" class="togglePassword">👁</span>
+                    </div>
+                    <small class="error" id="confirmError"></small>
+                </div>
+
+                <div class="options">
+                    <label class="remember">
+                        <input type="checkbox" id="terms">
+                        I agree to the <a href="#"> Terms &amp; Conditions</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="signin-btn">Sign Up</button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
