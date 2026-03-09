@@ -984,7 +984,7 @@ body.accessibility-mode .hero-subtitle {
     position: fixed;
     align-content: center;
     inset: 0;
-    background-color: var(--mai-cream);
+    background-color: rgba(224, 213, 224, 0.95);
     z-index: 999;
     padding: 100px 24px 40px;
     display: flex;
