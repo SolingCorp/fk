@@ -1,12 +1,14 @@
 function showError(element, message) {
-    // bxs-error-alt is the solid triangle icon in Boxicons
     element.innerHTML = `<i class="bxf bx-alert-triangle"></i> ${message}`;
-    element.previousElementSibling?.classList.add("input-error");
+    // Find the input within the same input-group
+    const container = element.closest('.input-group');
+    container.querySelector('input').classList.add("input-error");
 }
 
 function clearError(element) {
     element.innerHTML = "";
-    element.previousElementSibling?.classList.remove("input-error");
+    const container = element.closest('.input-group');
+    container.querySelector('input').classList.remove("input-error");
 }
 
 const form = document.getElementById("loginForm")

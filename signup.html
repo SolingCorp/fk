@@ -33,27 +33,39 @@
                 </p>
 
                 <div class="input-group">
-                    <input type="text" id="fullname" placeholder="Enter your full name">
+                    <div class="floating-group">
+                        <input type="text" id="fullname" placeholder=" ">
+                        <label for="fullname">Full Name</label>
+                    </div>
                     <small class="error" id="nameError"></small>
                 </div>
 
                 <div class="input-group">
-                    <input type="text" id="email" placeholder="Enter your email">
+                    <div class="floating-group">
+                        <input type="text" id="email" placeholder=" ">
+                        <label for="email">Email address</label>
+                    </div>
                     <small class="error" id="emailError"></small>
                 </div>
 
                 <div class="input-group">
-                    <div class="password-wrapper">
-                        <input type="password" id="password" placeholder="Create a password">
-                        <span id="togglePassword" class="togglePassword">👁</span>
+                    <div class="floating-group">
+                        <div class="password-wrapper">
+                            <input type="password" id="password" placeholder=" ">
+                            <label for="password">Create a password</label>
+                            <span id="togglePassword" class="togglePassword">👁</span>
+                        </div>
                     </div>
                     <small class="error" id="passwordError"></small>
                 </div>
 
                 <div class="input-group">
-                    <div class="password-wrapper">
-                        <input type="password" id="confirmPassword" placeholder="Confirm your password">
-                        <span id="togglePassword" class="togglePassword">👁</span>
+                    <div class="floating-group">
+                        <div class="password-wrapper">
+                            <input type="password" id="confirmPassword" placeholder=" ">
+                            <label for="confirmPassword">Confirm your password</label>
+                            <span id="togglePassword" class="togglePassword">👁</span>
+                        </div>
                     </div>
                     <small class="error" id="confirmError"></small>
                 </div>
